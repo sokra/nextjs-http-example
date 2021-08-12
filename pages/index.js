@@ -1,8 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import lodash from 'https://cdn.skypack.dev/lodash';
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    confetti();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>

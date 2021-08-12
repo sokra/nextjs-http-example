@@ -1,5 +1,7 @@
 {
+  "https://cdn.skypack.dev/-/canvas-confetti@v1.4.0-POmgSMO0U5q84otJfYlN/dist=es2020,mode=imports/optimized/canvas-confetti.js": { "integrity": "sha512-CQvMBYvw2oXoavqkNwjHzIBuL0at7CkHRlcJp7WZeXKOMAiCotkJ5ud2yHUAkmQmRmN7kl3x9kW8aKaErG3uLQ==", "contentType": "application/javascript; charset=utf-8" },
   "https://cdn.skypack.dev/-/lodash@v4.17.21-K6GEbP02mWFnLA45zAmi/dist=es2020,mode=imports/optimized/lodash.js": { "integrity": "sha512-+yvEqERGKe8vCRhGXWqPEYDUKjOAVRTw3C9x25WXBy0WSyARhgsmbHreuY4lWUEKHTVA+tZSXyOD1oCmR27Vqw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/canvas-confetti": { "integrity": "sha512-DC93Ta6vzCr9lCRk03AJyW9sJDZuW0Rc9boUlU0Al66gqIYLmy0NoPcfIwsPSHviF9GcaUIJ/ktbqhkz2y3uqw==", "contentType": "application/javascript; charset=utf-8" },
   "https://cdn.skypack.dev/lodash": { "integrity": "sha512-5aM4GHr6Bh6bUTLMMYsSSdEeT7aTD7xxXNZ5OKFSGzBaxpqHLtt72pl9hQME0vhv7ZHzQNsmOMiWV6udM7D64Q==", "contentType": "application/javascript; charset=utf-8" },
   "version": 1
 }
