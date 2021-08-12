@@ -2,7 +2,15 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import lodash from 'https://cdn.skypack.dev/lodash';
 
-export default function Home() {
+export function getServerSideProps() {
+  return {
+    props: {
+      version: lodash.VERSION,
+    },
+  };
+}
+
+export default function Home({ version }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +20,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>{lodash.VERSION}</h1>
+        <h1 className={styles.title}>client: {lodash.VERSION}</h1>
+        <h1 className={styles.title}>server: {version}</h1>
       </main>
     </div>
   );

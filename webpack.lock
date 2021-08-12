@@ -1,0 +1,5 @@
+{
+  "https://cdn.skypack.dev/-/lodash@v4.17.21-K6GEbP02mWFnLA45zAmi/dist=es2020,mode=imports/optimized/lodash.js": { "integrity": "sha512-+yvEqERGKe8vCRhGXWqPEYDUKjOAVRTw3C9x25WXBy0WSyARhgsmbHreuY4lWUEKHTVA+tZSXyOD1oCmR27Vqw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/lodash": { "integrity": "sha512-5aM4GHr6Bh6bUTLMMYsSSdEeT7aTD7xxXNZ5OKFSGzBaxpqHLtt72pl9hQME0vhv7ZHzQNsmOMiWV6udM7D64Q==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}
